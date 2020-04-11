@@ -11,6 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css"
+    />
     <!-- <script src="script_gmaps.js" defer></script> -->
     <!-- <script
       async
@@ -20,7 +25,16 @@
   </head>
   <body onload="getAPIdata()">
     <h1>My Google Maps</h1>
-    <div id="map"></div>
-    <article id="weather"></article>
+    <div class="container">
+      <div id="map"></div>
+    </div>
+    <div class="weather-container">
+      <article id="weather"></article>
+      <article id="weather1"></article>
+      <article id="weather2"></article>
+      <article id="weather3"></article>
+      <article id="weather4"></article>
+      <article id="weather5"></article>
+    </div>
   </body>
 </html>

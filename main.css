@@ -4,10 +4,62 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
 #map {
   height: 400px;
-  width: 100%;
+  width: 90%;
+  border-radius: 10px;
 }
 
 #weather {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+#weather1 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#weather2 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#weather3 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#weather4 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#weather5 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.temp {
+  font-weight: bold;
+  color: ;
 }
