@@ -38,8 +38,8 @@ var cities = [
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/qurka/ck8vpljop0tio1io321ujknk5",
-  center: [5.508852, 52.14248],
-  zoom: 8,
+  center: [4.3007, 52.0705],
+  zoom: 12,
   pitch: 45,
   bearing: -17.6,
   container: "map",
