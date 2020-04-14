@@ -8,6 +8,19 @@ body {
   font-family: monospace;
 }
 
+header {
+  display: flex;
+  height: 4rem;
+  background-color: rgb(82, 82, 82);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  height: auto;
+  width: 350px;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -59,6 +72,14 @@ h1 {
   flex-wrap: wrap;
 }
 
-.temp {
-  font-weight: bold;
+.legal-container {
+  display: flex;
+  height: 10rem;
+  width: 100%;
+  background-color: rgb(82, 82, 82);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
 }
